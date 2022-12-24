@@ -1,5 +1,5 @@
 module "bucket" {
-  source = "github.com/chgasparoto/terraform-s3-object-notification"
+  source = "github.com/rperucchi/terraform-s3-object-notification"
   name   = "my-test-bucket-from-my-module-123456"
 
   notification_topic = [
